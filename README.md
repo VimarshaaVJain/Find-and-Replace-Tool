@@ -22,7 +22,7 @@ This is a simple web-based Find and Replace Tool. It allows users to input any t
 3. Open the `index.html` file in your browser to use the tool.
 
 ## Hosting
-The application is hosted on [Vercel/Netlify]. You can access the live version here:
+The application is hosted on Netlify. You can access the live version here:
 [Link to hosted application]
 
 ## Enhancements
