@@ -11,7 +11,7 @@ background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba
 
 .container {
      width: 68%;
-    height: 75%;
+    height: 82%;
     background-color:white;
     padding: 20px;
     border-radius: 10px;
@@ -29,7 +29,7 @@ textarea {
 }
 
 input {
-    width: 45%;
+    width: 55%;
     padding: 10px;
     margin: 5px 0;
     border-radius: 5px;
@@ -37,12 +37,13 @@ input {
 }
 
 button {
-    padding: 10px 20px;
-    background:#611cee;
+     padding: 10px 20px;
+    background: #611cee;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+        min-width: 49%;
 }
 
 button:hover {
@@ -50,11 +51,290 @@ button:hover {
 }
 
 .controls {
+   display: flex;
+    margin-bottom: 20px;
+    gap: 2%;
+}
+
+.btn-controls{
     display: flex;
-     margin-bottom: 20px;
-    gap: 15px;
+    margin-bottom: 20px;
+    gap: 2%;
 }
 
 .heading{
     color:#5a5a5adb;
+}
+
+  @media only screen and (max-width: 2000px) {
+       .container {
+     width: 68%;
+    height: 82%;
+    background-color:white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+textarea {
+    width: 98%;
+    height: 150px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+input {
+    width: 55%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+button {
+     padding: 10px 20px;
+    background: #611cee;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+        min-width: 49%;
+}
+
+button:hover {
+    background-color: #002366;
+}
+
+.controls {
+   display: flex;
+    margin-bottom: 20px;
+    gap: 2%;
+}
+
+.btn-controls{
+    display: flex;
+    margin-bottom: 20px;
+    gap: 2%;
+}
+
+.btn-controls{
+    display: flex;
+    margin-bottom: 20px;
+    gap: 2%;
+}
+
+.heading{
+    color:#5a5a5adb;
+}
+
+    }
+
+@media only screen and (max-width: 600px) {
+.container {
+    width: 80%;
+    height: 90%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    
+}
+
+textarea {
+      width: 93%;
+    height: 115px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+input {
+        width: 160%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.btn-controls{
+display: inline;
+        margin-bottom: 15px;
+        margin-top: 15px;
+}
+
+.controls {
+    display: flex;
+    margin-bottom: 1px;
+    gap: 5px;
+}
+
+}
+
+@media only screen and (max-width: 768px) {
+.container {
+    width: 80%;
+    height: 85%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    
+}
+
+textarea {
+      width: 93%;
+    height: 115px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+input {
+          max-width: 44%;
+        padding: 10px;
+        margin: 5px 0;
+        border-radius: 5px;
+        border: 1px solid #ddd;
+}
+
+.btn-controls{
+                display: flex;
+        margin-top: 15px;
+        gap: 22px;
+
+}
+
+.controls {
+   display: flex;
+        margin-bottom: 1px;
+        gap: 13px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #611cee;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    min-width: 47%;
+}
+
+}
+
+@media only screen and (max-width: 960px) {
+.container {
+    width: 80%;
+    height: 85%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    
+}
+
+textarea {
+      width: 93%;
+    height: 115px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+input {
+          max-width: 44%;
+        padding: 10px;
+        margin: 5px 0;
+        border-radius: 5px;
+        border: 1px solid #ddd;
+}
+
+.btn-controls{
+                display: flex;
+        margin-top: 15px;
+        gap: 2%;
+
+}
+
+.controls {
+   display: flex;
+        margin-bottom: 1px;
+        gap: 2%;
+}
+
+button {
+    padding: 10px 20px;
+    background: #611cee;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    min-width: 47%;
+}
+
+}
+
+
+
+@media only screen and (max-width: 1440px) {
+.container {
+    width: 80%;
+    height: 90%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    
+}
+
+textarea {
+      width: 98%;
+    height: 132px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+input {
+          max-width: 47%;
+        padding: 10px;
+        margin: 5px 0;
+        border-radius: 5px;
+        border: 1px solid #ddd;
+}
+
+.btn-controls{
+                display: flex;
+        margin-top: 15px;
+        gap: 2%;
+
+}
+
+.controls {
+   display: flex;
+        margin-bottom: 1px;
+        gap: 2%;
+}
+
+button {
+    padding: 10px 20px;
+    background: #611cee;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    min-width: 49%;
+}
+
 }
