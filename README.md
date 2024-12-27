@@ -23,7 +23,7 @@ This is a simple web-based Find and Replace Tool. It allows users to input any t
 
 ## Hosting
 The application is hosted on Netlify. You can access the live version here:
-[Link to hosted application]
+https://find-replace-update.netlify.app/index.html
 
 ## Enhancements
 - Case-sensitive/insensitive search option.
